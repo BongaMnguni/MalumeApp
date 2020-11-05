@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.school.malumewezingane.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_register"
+        android:name="com.school.malumewezingane.ui.register.RegisterFragment"
+        android:label="Register"
+        tools:layout="@layout/fragment_register" />
+
+    <fragment
+        android:id="@+id/nav_notification"
+        android:name="com.school.malumewezingane.ui.notification.NotificationFragment"
+        android:label="Notification"
+        tools:layout="@layout/fragment_notification" />
+
+    <fragment
+        android:id="@+id/nav_chats"
+        android:name="com.school.malumewezingane.ui.chats.ChatsFragment"
+        android:label="Chats"
+        tools:layout="@layout/fragment_chats" />
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.school.malumewezingane.ui.pHome.PHomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_p_home" />
+
+ <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.school.malumewezingane.ui.dashboard.DashboardFragment"
+        android:label="Chats"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.school.malumewezingane.ui.notification.NotificationFragment"
+        android:label="Parent Notification"
+        tools:layout="@layout/fragment_notifications" />
+
+
+</navigation>
